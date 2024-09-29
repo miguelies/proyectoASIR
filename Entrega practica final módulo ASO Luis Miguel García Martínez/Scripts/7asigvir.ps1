@@ -1,0 +1,8 @@
+﻿Add-ADGroupMember -Identity "usuariosHV01-44.usu1" -Members (Get-ADUser guillermo)
+Add-ADGroupMember -Identity "usuariosHV01-44.usu2" -Members (Get-ADUser luisma)
+Add-ADGroupMember -Identity "usuariosHV01-44.usu3" -Members (Get-ADUser noelia)
+Add-ADGroupMember -Identity "usuariosHV01-44.usu4" -Members (Get-ADUser eduardo)
+Add-ADGroupMember -Identity "usuariosHV02-44.usu1" -Members (Get-ADUser aida)
+Add-ADGroupMember -Identity "usuariosHV02-44.usu2" -Members (Get-ADUser mercedes)
+Add-ADGroupMember -Identity "usuariosHV02-44.usu3" -Members (Get-ADUser maite)
+Add-ADGroupMember -Identity "usuariosHV02-44.usu4" -Members (Get-ADUser juanjo)
